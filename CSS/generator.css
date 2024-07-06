@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    background: Linear-gradient(#57575785, #00000073),url('/hackwithdelhi/Images/bcc1.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.certificate-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 700px;
+    /* height: 430px; */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#certificates {
+    margin-top: 20px;
+}
+
+.certificate {
+    /* max-width: 1000px; */
+    width: 700px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.certificate h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+/* .certificate h2:hover{
+    color:red;
+}
+
+.input-field.active + label {
+    font-size: 0.75rem;
+    top: -2px;
+    color:rgba(255, 0, 0, 0.801);
+}
+.active{
+    color: red;
+} */
